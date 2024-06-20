@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color:rgb(50, 126, 20);
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+}
+
+.nav-link:hover{
+    color: slateblue;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(50, 126, 20);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(50, 126, 20);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+p{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.main{
+    background: url(assets/bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1{
+    padding-top: 60px;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(50, 126, 20);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1 :hover{
+    background-color:rgb(50, 126, 20) ;
+    transition: 0.5s;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.card :hover{
+    box-shadow: -2px -1px 39px -16px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 39px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 39px -16px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+#text-content{
+    text-align: justify;
+}
+
+.fixed-size-img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.connect{
+    background-color: rgb(50, 126, 20);
+    color: white;
+}
+
+.text-white {
+    color: white !important; /* Important to override Bootstrap styles */
+}
+
+.btn-black {
+    background-color:rgb(50, 126, 20);
+    color: white;
+}
+
+.btn-custom {
+    background-color: rgb(50, 126, 20);
+    color: #fff;
+    border-color: rgb(50, 126, 20);
+}
+
+.btn-custom:hover {
+    background-color: slateblue; 
+    border-color: slateblue;
+}
